@@ -1,0 +1,31 @@
+.sobre_mi{
+    display: flex;
+    flex-direction: column;
+}
+.sobre_mi-titulo{
+    color:rgb(3, 53, 124);
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-shadow: 1px 1px 2px gray;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+.sobre_mi-textos{
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    margin: .5rem;
+    padding: .5rem;
+}
+.sobre_mi-textos-1, .sobre_mi-textos-2, .sobre_mi-textos-3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    margin: .5rem;
+    padding: .5rem;
+}
