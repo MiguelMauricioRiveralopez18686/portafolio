@@ -1,0 +1,103 @@
+.contacto_titulo{
+    display: flex;
+    justify-content: center;
+    color:rgb(3, 53, 124);
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-shadow: 1px 1px 2px gray;
+    text-transform: uppercase;
+    padding: 1.2rem;
+    margin: 1.2rem;
+    text-align: center;
+}
+.contacto_container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  .contacto_item {
+    background-color: #ffff;
+    border-radius: 4px ;
+    border: 1px solid rgb(7, 117, 195);
+    box-shadow: 1px 2px 2px 2px #979696;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 0 200px; 
+  }
+  .contacto_item-titulo {
+    color:rgb(3, 53, 124);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    margin: 10px; 
+  }
+  .contacto_item-texto{
+    color:rgb(22, 22, 22);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    margin: 10px; 
+  }
+  form{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+form label, form legend{
+    display: flex;
+    color:rgb(22, 22, 22);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0 10px;
+    text-align: left;
+}
+
+.input-padron{
+  color:rgb(22, 22, 22);
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 60%;
+}
+
+.checkbox{
+    margin:20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(22, 22, 22);
+    font-family: 'Noto Sans', sans-serif;
+    background: orange;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+  @media screen and (max-width: 600px) {
+    .contacto_item {
+      flex-basis: 100%;
+    }
+  }
