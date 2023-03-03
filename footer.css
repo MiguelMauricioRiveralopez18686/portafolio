@@ -1,0 +1,15 @@
+.piePortafolio{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(227, 227, 227);
+    padding: 1rem;
+}
+.piePortafolio-texto{
+    color:rgb(41, 41, 42);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 3px;
+    margin: 3px; 
+}

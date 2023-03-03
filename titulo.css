@@ -1,0 +1,60 @@
+.titulo{
+    background-image: url('../img/Logo-personal.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;
+    display: flex;
+    padding: 4rem;
+    justify-items: center;
+    justify-content: center;
+}
+.titulo_cont{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    justify-content: center;
+}
+.titulo_cont-h1{
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: .5rem;
+    
+}
+.titulo_cont-h2{
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: .5rem;
+    
+}
+.titulo_cont-nav{
+    display: flex;
+    margin: .5rem;
+}
+.titulo_cont-nav-link{
+    display: flex;
+    margin: .5rem;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(5, 76, 176);
+    
+}
+.titulo_cont-nav-link:hover{
+    display: flex;
+    margin: .5rem;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: underline;
+    color: rgb(3, 53, 124);
+    transition: all .2s linear;
+}
+.titulo_cont-perfil{
+    display: flex;
+    padding-left: 2rem;
+    border-radius: 100%;
+}
